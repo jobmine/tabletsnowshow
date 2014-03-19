@@ -1,0 +1,78 @@
+body {
+	color: #474747;
+	background-color: #474747;
+	background: #474747 url(bg.png);
+	overflow: scroll;
+}
+ 
+h2 {
+	font: 70px Tahoma, Helvetica, Arial, Sans-Serif;
+	float: left;
+	color: #222; text-shadow: 0px 5px 2px #555;
+}
+
+
+pre {
+	width: 700px; margin: 0 auto; background: #222; padding: 20px;
+	font-size: 22px; color: #8a8a8a; text-shadow: 0px 2px 3px #171717;
+	line-height: 10px;
+	-webkit-box-shadow: 0px 2px 3px #555;
+	-moz-box-shadow: 0px 2px 3px #555;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	
+}
+
+pre a {
+	color: #8a8a8a;
+}
+
+pre a:hover {
+	color: #fff;
+	opacity: .8;
+	zoom: 120%;;
+}
+
+
+
+pre p {
+	padding-left: 40px;
+}
+
+
+#title {
+	margin-top: 180px;
+	margin-left: 10%;
+	position: absolute;
+	width: 400px;
+	height: 100px;
+}
+
+#people {
+	position: absolute;
+	margin-left: 10%;
+	margin-right: auto;
+	margin-top: 275px;
+	opacity: .8;
+}
+
+#empty {
+	position: relative;
+	margin-top: 100px;
+}
+
+#back {
+	background-image: url(left.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100px;
+	height: 100px;
+	position: fixed;
+	margin-left: 20px;
+	margin-top: 20px;
+	opacity: .3;
+}
+
+#back:hover {
+	opacity: .8;
+}

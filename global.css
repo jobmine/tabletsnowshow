@@ -1,0 +1,250 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'g_light';
+	src: url('Gotham-Book.otf');
+} 
+
+/*
+@font-face {
+	font-family: 'g_huge';
+	src: url('../style/Gotham-Ultra.otf');
+}
+
+@font-face {
+	font-family: 'g_thin';
+	src: url('../style/Gotham-XLight.otf');
+} 
+*/
+
+@font-face {
+	font-family: 'g_medium';
+	src: url('Gotham-Medium.otf');
+} 
+
+/*
+@font-face {
+	font-family: 'g_bold';
+	src: url('../style/GothamCond-Bold.otf');
+} 
+
+@font-face {
+	font-family: 'g_near';
+	src: url('../style/GothamCond-Book.otf');
+} 
+*/
+
+* {margin:0; padding:0; vertical-align:top;}
+.xue {position:absolute;color:#fff;}
+
+
+#body {
+	background-color: #474747;
+}
+
+#harbin {
+	background-image: url(static/harbin1.png);
+	height: 150px;
+	width: 280px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 70px;
+	margin-left: 400px;
+	position: absolute;
+	
+}
+
+#harbinmap {
+	background-image: url(static/harbinmap.png);
+	background-repeat: no-repeat;
+	opacity: .1;
+	width: 600px;
+	height: 500px;
+	position: absolute;
+}
+
+.harbin_other_lang {
+	color: #5f9be5;
+	position: absolute;
+	text-shadow: 1px 1px 0px #195798;
+}
+
+.harbin_other_lang #russian{
+	font-size: 60px;
+	margin-left: 50px;
+	margin-top: 180px;
+	opacity: .7;
+	position: absolute;
+}
+
+.harbin_other_lang #english {
+	font-size: 80px;
+	margin-left: 750px;
+	opacity: .8;
+	margin-top: 210px;
+	position: absolute;
+}
+
+.harbin_other_lang #arabic {
+	font-size: 60px;
+	margin-left: 500px;
+	opacity: .6;
+	margin-top: 250px;
+	position: absolute;
+}
+
+.harbin_other_lang #tchinese {
+	font-size: 30px;
+	width: 100px;
+	margin-left: 200px;
+	opacity: .6;
+	margin-top: 20px;
+	position: absolute;
+}
+
+.harbin_other_lang #greek {
+	font-size: 30px;
+	margin-left: 750px;
+	opacity: .6;
+	margin-top: 40px;
+	position: absolute;
+}
+
+.harbin_other_lang #hebrew {
+	font-size: 40px;
+	margin-left: 260px;
+	opacity: .5;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.harbin_other_lang #hindi {
+	font-size: 40px;
+	margin-left: 370px;
+	opacity: .4;
+	margin-top: 220px;
+	position: absolute;
+}
+
+.harbin_other_lang #thai {
+	font-size: 40px;
+	width: 200px;
+	margin-left: 850px;
+	opacity: .1;
+	margin-top: 100px;
+	position: absolute;
+}
+
+.harbin_other_lang #telugu {
+	font-size: 20px;
+	width: 100px;
+	margin-left: 600px;
+	opacity: .8;
+	margin-top: 10px;
+	position: absolute;
+}
+
+.harbin_other_lang #vietnamese {
+	font-size: 20px;
+	width: 200px;
+	margin-left: 600px;
+	opacity: .6;
+	margin-top: 180px;
+	position: absolute;
+}
+
+.harbin_other_lang div:hover {
+	color: #ffffff;
+	-webkit-transition: ease .5s;
+	opacity: .5;
+}
+
+#slug {
+	background-image: url(static/slug.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 600px;
+	height: 50px;
+	background-size: contain;
+	margin-left: 240px;
+	opacity: .4;
+	margin-top: 550px;
+
+}
+
+.nav {
+	width: 850px;
+	height: 250px;
+	position: absolute;
+	margin-left: 150px;
+	margin-top: 340px;
+	padding: 0px;
+}
+
+.nav div {
+	float: left;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 180px;
+	height: 135px;
+	position: relative;
+	margin: auto;
+	opacity: .8;
+	padding-left: 20px;
+}
+
+#history {
+	background-image: url(static/history.png);
+}
+
+#history:hover {
+	background-image: url(static/history3.png);
+}
+
+#honour {
+	background-image: url(static/honour.png);
+}
+
+
+#view {
+	background-image: url(static/view.png);
+}
+
+#food {
+	background-image: url(static/food.png);
+}
+
+#honour:hover {
+	background-image: url(static/honour3.png);
+}
+
+
+#view:hover {
+	background-image: url(static/view3.png);
+}
+
+#food:hover {
+	background-image: url(static/food3.png);
+}
+
+
+.nav div:hover {
+	margin-top: -20px;
+	-webkit-transition: ease .5s;
+	opacity: 1;
+}
+
+
+.top {
+	text-align: center;
+	text-align-last: inherit;
+	color: white;
+    position:fixed;
+    top:0;
+    left: 10px;
+    background:#658bc3;
+    opacity: .8;
+    width:100px;
+    height:22px;
+    display: inline-block;
+}
